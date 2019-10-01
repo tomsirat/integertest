@@ -1,0 +1,188 @@
+/* ------------------------------ Global Settings --------------------------------- */
+
+body {
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 , h3 {
+    margin-top: 0rem;
+}
+
+p {
+    color: white;
+}
+
+i {
+    margin-bottom: 1rem;
+}
+
+a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#portfolio , #about , #contact , #social {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+nav , #social {
+    background-color: rgb(20, 20, 56);
+}
+
+#introduction , #about {
+    background-color: #27AE61;
+}
+
+#portfolio , #contact {
+    background-color: rgba(235, 235, 235, 0.65);
+}
+
+footer {
+    background-color: black;
+}
+
+/* ----------------------------- Header + Nav -------------------------------------*/
+
+nav > a {
+    margin-left: 5rem;
+}
+
+nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul , li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+ul {
+    width: 50%;
+    text-align: right;
+}
+
+/* --------------------------- Introduction --------------------------------------------*/
+
+#introduction > img {
+    margin-top: 2.5rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 2rem;
+}
+
+#introduction > p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-bottom: 5rem;
+}
+
+#introduction > i {
+    color: white;
+}
+
+/* -------------------------- Portfolio --------------------------------------------------- */
+
+#portfolio {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+#portfolio > img {
+    width: 30%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+#portfolio > i {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* ------------------------ About ----------------------------------------------------------- */
+
+#about > h2 {
+    color: white;
+}
+
+#about > i {
+    color: white;
+}
+
+#about > a {
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+/* ------------------------ Formulaire ------------------------------------------------------- */
+
+
+form {
+    margin-right: 4rem;
+    margin-left: 5rem;
+    
+}
+
+label {
+    display: block;
+    text-align: left;
+    padding-left: 10rem;
+    padding-top: 3rem;
+}
+
+#firstname , #lastname {
+    display: inline-block;
+    width: 50%
+}
+
+input:not(#sub) {
+    border: none;
+    background-color: rgba(235, 235, 235, 0);
+    border-bottom: 1px solid lightgrey ;
+    padding-top: 1rem;
+}
+
+#mail , #phone , #message {
+    width: 71%;
+}
+
+#sub {
+    display: block;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+    
+
+
+
+
+/* ------------------------- Social ------------------------------------------------------------ */
+
+}
+#social > p {
+    margin-bottom: 0rem; 
+}
+
+
+
+
+
+/* ------------------------- Footer --------------------------------------------------------------- */
+
+
+
+footer > p {
+    margin-top: 0rem;
+}
